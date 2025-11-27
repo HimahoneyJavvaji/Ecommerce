@@ -1,0 +1,8 @@
+package com.klu.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.klu.model.Category;
+
+public interface CategoryRepository extends JpaRepository<Category, Long> {
+    boolean existsByName(String name);
+}

@@ -1,0 +1,65 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar h3 {
+  color: #4a90e2;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar li {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar li span {
+  flex: 1;
+  font-weight: 500;
+}
+
+.sidebar li div button {
+  margin-left: 5px;
+  padding: 5px 8px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: #4a90e2;
+  transition: 0.2s;
+}
+
+.sidebar li div button:hover {
+  background-color: #357abd;
+}
+
+.sidebar li .delete {
+  background-color: #f2994a;
+}
+
+.sidebar li .delete:hover {
+  background-color: #d57b2c;
+}
+
+.sidebar li .view {
+  background-color: #27ae60;
+}
+
+.sidebar li .view:hover {
+  background-color: #1f8748;
+}

@@ -1,0 +1,91 @@
+/* PaymentsPage.css */
+
+.payments-page {
+  padding: 2rem;
+  background-color: #f5f7fa; /* neutral background */
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.bill-header h2 {
+  color: #4a90e2; /* primary */
+  margin-bottom: 0.5rem;
+}
+
+.bill-header p {
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+/* Table */
+.bill-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border: 1px solid #f0f2f5;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.bill-table th,
+.bill-table td {
+  padding: 0.75rem 1rem;
+  text-align: center;
+  border-bottom: 1px solid #f0f2f5;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.bill-table th {
+  background-color: #f0f2f5; /* neutral light gray */
+  font-weight: 600;
+}
+
+/* Charges section */
+.charges {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #ffffff;
+  border: 1px solid #f0f2f5;
+  border-radius: 12px;
+}
+
+.charges p {
+  margin: 0.3rem 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Total */
+.total-amount {
+  text-align: right;
+  color: #27ae60; /* success green */
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Pay Now button */
+.pay-btn {
+  background-color: #4a90e2; /* primary */
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.pay-btn:hover {
+  background-color: #3a78c2; /* darker primary */
+}
+
+/* Footer */
+.bill-footer {
+  margin-top: 2rem;
+  text-align: center;
+  color: #333;
+  font-size: 0.95rem;
+}

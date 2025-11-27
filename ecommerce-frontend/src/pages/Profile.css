@@ -1,0 +1,141 @@
+/* ============================
+   Profile Page - Global Layout
+   ============================ */
+.profile-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+}
+
+.profile-container h2 {
+  text-align: center;
+  color: #4a90e2;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+/* ==============================
+   Loading State
+   ============================== */
+.profile-loading {
+  text-align: center;
+  padding: 40px;
+  font-size: 20px;
+  color: #4a90e2;
+}
+
+/* ==============================
+   Profile Card
+   ============================== */
+.profile-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: #333;
+}
+
+.profile-card p {
+  margin: 4px 0;
+  font-size: 16px;
+}
+
+/* ==============================
+   Action Buttons
+   ============================== */
+.profile-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn-edit,
+.btn-password,
+.btn-delete {
+  padding: 10px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+/* Edit Profile Button */
+.btn-edit {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.btn-edit:hover {
+  background-color: #3d7fc7;
+}
+
+/* Change Password Button */
+.btn-password {
+  background-color: #f2994a;
+  color: white;
+}
+
+.btn-password:hover {
+  background-color: #d97e35;
+}
+
+/* Delete Account Button */
+.btn-delete {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #c44133;
+}
+
+/* ==============================
+   Form Styles (Edit + Password)
+   ============================== */
+.profile-card label {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.profile-card input {
+  padding: 10px;
+  border: 1px solid #d0d6dd;
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+  margin-bottom: 10px;
+  transition: border 0.2s ease;
+}
+
+.profile-card input:focus {
+  border-color: #4a90e2;
+}
+
+/* ==============================
+   Responsive
+   ============================== */
+@media (max-width: 600px) {
+  .profile-container {
+    padding: 15px;
+  }
+
+  .profile-card {
+    padding: 20px;
+  }
+
+  .btn-edit, .btn-password, .btn-delete {
+    width: 100%;
+    text-align: center;
+  }
+
+  .profile-actions {
+    flex-direction: column;
+  }
+}

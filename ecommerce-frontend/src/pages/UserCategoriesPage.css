@@ -1,0 +1,91 @@
+/* UserCategoriesPage.css */
+
+/* Layout */
+.user-dashboard {
+  display: flex;
+  gap: 2rem;
+  padding: 1.5rem;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Sidebar */
+.user-dashboard aside {
+  min-width: 220px;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.user-dashboard aside h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #4a90e2;
+}
+
+.user-dashboard aside ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-dashboard aside li {
+  margin-bottom: 0.75rem;
+}
+
+.user-dashboard aside button {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  background-color: #4a90e2;
+  color: #ffffff;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.user-dashboard aside button:hover {
+  background-color: #3a78c2;
+}
+
+/* Main content */
+.user-dashboard main {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.user-dashboard main h2 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  color: #4a90e2;
+}
+
+.user-dashboard main p {
+  color: #666;
+  font-size: 1rem;
+}
+
+/* Utility colors (optional usage for ItemList or buttons inside it) */
+.btn-success {
+  background-color: #27ae60;
+  color: #ffffff;
+}
+
+.btn-success:hover {
+  background-color: #1e8a4d;
+}
+
+.btn-warning {
+  background-color: #f2994a;
+  color: #ffffff;
+}
+
+.btn-warning:hover {
+  background-color: #d97e35;
+}

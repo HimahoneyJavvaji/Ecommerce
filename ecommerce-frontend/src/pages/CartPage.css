@@ -1,0 +1,109 @@
+/* Container */
+.cart-page {
+  padding: 2rem;
+  background-color: #f5f7fa; /* neutral background */
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Page title */
+.cart-page h2 {
+  color: #4a90e2; /* primary */
+  margin-bottom: 1.5rem;
+}
+
+/* Table styling */
+.cart-page table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff; /* white card */
+  border: 1px solid #f0f2f5;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.cart-page th,
+.cart-page td {
+  padding: 0.75rem 1rem;
+  text-align: center;
+  border-bottom: 1px solid #f0f2f5;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.cart-page th {
+  background-color: #f0f2f5; /* light gray */
+  font-weight: 600;
+}
+
+/* Images */
+.cart-page td img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Quantity buttons */
+.cart-page td button {
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 4px 10px;
+  font-size: 0.9rem;
+  margin: 0 4px;
+  transition: background 0.2s ease;
+  color: #ffffff;
+}
+
+.cart-page td button.increase,
+.cart-page td button.decrease {
+  background-color: #4a90e2; /* primary */
+}
+
+.cart-page td button.increase:hover,
+.cart-page td button.decrease:hover {
+  background-color: #3a78c2; /* darker primary */
+}
+
+/* Remove button */
+.cart-page td button.remove {
+  background-color: #f2994a; /* warning/delete */
+}
+
+.cart-page td button.remove:hover {
+  background-color: #d97e35; /* darker orange */
+}
+
+/* Total Amount */
+.cart-page h3 {
+  text-align: right;
+  color: #27ae60; /* success */
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+/* Proceed to Pay Button */
+.cart-page .proceed-btn {
+  background-color: #4a90e2; /* primary */
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.cart-page .proceed-btn:hover {
+  background-color: #3a78c2; /* darker primary */
+}
+
+/* Empty cart text */
+.cart-page p {
+  font-size: 1rem;
+  color: #333;
+}
